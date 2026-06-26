@@ -18,3 +18,8 @@ for i in range(1, 4):
 
 print(f"Heads: {heads}")
 print(f"Tails: {tails}")
+
+if heads > tails:
+    print("You won")
+else:
+    print("You lost")
