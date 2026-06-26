@@ -20,6 +20,6 @@ print(f"Heads: {heads}")
 print(f"Tails: {tails}")
 
 if heads > tails:
-    print("You won")
+    print(f"{name} won!")
 else:
-    print("You lost")
+    print(f"{name} lost!")
